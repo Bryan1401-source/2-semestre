@@ -1,0 +1,41 @@
+@font-face {
+    font-family: digital;
+    src: url(/fonts/DS-DIGI.TTF);
+}
+
+
+
+body{
+    height: 100vh;
+    background: url(/images/batman.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background-color: rgba(255, 255, 255, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: fit-content;
+    backdrop-filter: blur();
+}
+
+.central div{
+    background: rgb(0, 5, 10);
+    color: rgb(255, 1, 1);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 120px;
+    backdrop-filter: blur();
+    font-family: digital;
+
+    
+}
+
+.central span{
+    font-size: 120px;
+}
