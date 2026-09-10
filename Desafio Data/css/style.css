@@ -1,0 +1,76 @@
+@font-face {
+  font-family: digital;
+  src: url(/fonts/DS-DIGI.TTF);
+}
+
+body {
+  height: 100vh;
+  background: url(/images/makima.webp) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+#painel {
+  background-color: rgba(10, 5, 5, 0.85);
+  border: 1px solid #ff2a35; 
+  border-radius: 8px; 
+  padding: 40px; 
+  text-align: center; 
+  
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7); 
+  
+  font-family: digital, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 440px; 
+}
+
+#painel h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  color: #ff333d; 
+  font-size: 2.2rem; 
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 51, 61, 0.2);
+  padding-bottom: 15px;
+}
+
+.relogio {
+  font-size: 5.5rem; 
+  color: #ff6a00; 
+  font-weight: bold; 
+  font-family: digital, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  line-height: 1;
+  margin: 10px 0;
+}
+
+.mensagem {
+  font-size: 2.2rem; 
+  color: #ffffff; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.projeto {
+  font-size: 0.85rem; 
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
