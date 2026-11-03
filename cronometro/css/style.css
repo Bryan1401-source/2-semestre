@@ -1,0 +1,53 @@
+body{
+    background-image: url(/images/fundo-tecnologico-futurista-gradiente_52683-74589.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+
+}
+.principal {
+    background: #1a00572d;
+    padding: 45px 35px;
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #790981;
+    box-shadow: 0 12px 35px #790981;
+}
+
+h1 {
+    color: #f1f5f9;
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #f1f5f9;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+button {
+    background-color: #22005d;
+    color: white;
+    padding: 12px 22px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: #22005d;
+        transform: scale(1.05);
+        transition: 0.58s;
+
+}
+}
